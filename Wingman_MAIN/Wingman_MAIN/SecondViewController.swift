@@ -23,6 +23,6 @@ class SecondViewController: UIViewController {
         let dismissAction = UIAlertAction(title: "Dismiss", style: .Default) { (_) in }
         alertController.addAction(dismissAction)
         self.presentViewController(alertController, animated: true) { (_) in}
-        self.presentViewController(alertController, animated: true) { (_) in}  // Zach's branch
+        self.presentViewController(alertController, animated: true) { (_) in}  // Zach's branch!
      }
 }
