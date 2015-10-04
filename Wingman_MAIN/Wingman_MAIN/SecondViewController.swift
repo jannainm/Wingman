@@ -22,10 +22,7 @@ class SecondViewController: UIViewController {
         let alertController = UIAlertController(title: "SMS Alert", message: "SMS messages successfully sent.", preferredStyle: .Alert)
         let dismissAction = UIAlertAction(title: "Dismiss", style: .Default) { (_) in }
         alertController.addAction(dismissAction)
-<<<<<<< HEAD
         self.presentViewController(alertController, animated: true) { (_) in}
-=======
         self.presentViewController(alertController, animated: true) { (_) in}  // Zach's branch
->>>>>>> 1727911fac06c6c43c08cdf5b493114b3f64f5f8
      }
 }
