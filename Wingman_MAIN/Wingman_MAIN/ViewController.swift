@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning()   //Zach's branch
         // Dispose of any resources that can be recreated.
     }
 
