@@ -10,6 +10,8 @@
 	<string>Wingman_MAIN</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>639226FD99480976D54A9339989F6B89000B9870</key>
+		<string>https://github.com/zribera18/MoonRunner</string>
 		<key>BFFB3C3E242FE143146A79E2684F7B794443DE9A</key>
 		<string>https://github.com/jannainm/wingman.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Wingman_MAIN/Wingman_MAIN.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>639226FD99480976D54A9339989F6B89000B9870</key>
+		<string>../../../../MoonRunner</string>
 		<key>BFFB3C3E242FE143146A79E2684F7B794443DE9A</key>
 		<string>../../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>BFFB3C3E242FE143146A79E2684F7B794443DE9A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>639226FD99480976D54A9339989F6B89000B9870</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MoonRunner</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
