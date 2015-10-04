@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Wingman_MAIN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctZ-Zy-seT">
+                                <rect key="frame" x="24" y="56.5" width="272" height="264"/>
+                                <state key="normal" title="Drink">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kr4-ui-5th" kind="presentation" id="Usy-Is-AVX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dr7-gL-dJl">
+                                <rect key="frame" x="304" y="56.5" width="272" height="264"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrd-nv-D9u">
+                                <rect key="frame" x="24" y="328.5" width="272" height="263.5"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGU-se-hks">
+                                <rect key="frame" x="16" y="28" width="568" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zn6-Ya-XmI">
+                                <rect key="frame" x="304" y="328.5" width="272" height="263.5"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="height" secondItem="Zn6-Ya-XmI" secondAttribute="height" id="0xJ-b5-X6q"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="height" secondItem="Jrd-nv-D9u" secondAttribute="height" id="5vj-PG-o8Y"/>
+                            <constraint firstItem="Dr7-gL-dJl" firstAttribute="top" secondItem="sGU-se-hks" secondAttribute="bottom" constant="8" id="73h-xN-cqg"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="width" secondItem="Zn6-Ya-XmI" secondAttribute="width" id="7nE-ow-pGd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dr7-gL-dJl" secondAttribute="trailing" constant="8" id="EOE-WK-2df"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="width" secondItem="Dr7-gL-dJl" secondAttribute="width" id="JOI-zt-LUQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jrd-nv-D9u" secondAttribute="bottom" constant="8" id="KHD-Jp-hcR"/>
+                            <constraint firstItem="sGU-se-hks" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="MaU-HJ-3JJ"/>
+                            <constraint firstItem="Zn6-Ya-XmI" firstAttribute="leading" secondItem="Jrd-nv-D9u" secondAttribute="trailing" constant="8" id="PYh-T2-g7E"/>
+                            <constraint firstItem="Jrd-nv-D9u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="RgO-Vk-ZPH"/>
+                            <constraint firstItem="sGU-se-hks" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XaY-lx-diX"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="height" secondItem="Dr7-gL-dJl" secondAttribute="height" id="YLf-JQ-uup"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="width" secondItem="Jrd-nv-D9u" secondAttribute="width" id="aXH-d1-5yt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zn6-Ya-XmI" secondAttribute="bottom" constant="8" id="fNX-hN-XVn"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="flt-rH-ffd"/>
+                            <constraint firstItem="sGU-se-hks" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="hRr-bz-f7Q"/>
+                            <constraint firstItem="Dr7-gL-dJl" firstAttribute="leading" secondItem="ctZ-Zy-seT" secondAttribute="trailing" constant="8" id="kfg-GK-nMj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zn6-Ya-XmI" secondAttribute="trailing" constant="8" id="qCj-uA-24x"/>
+                            <constraint firstItem="Zn6-Ya-XmI" firstAttribute="top" secondItem="Dr7-gL-dJl" secondAttribute="bottom" constant="8" id="rpJ-QV-oBf"/>
+                            <constraint firstItem="ctZ-Zy-seT" firstAttribute="top" secondItem="sGU-se-hks" secondAttribute="bottom" constant="8" id="s9H-Y4-pSv"/>
+                            <constraint firstItem="Jrd-nv-D9u" firstAttribute="top" secondItem="ctZ-Zy-seT" secondAttribute="bottom" constant="8" id="ynV-Pd-FIz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="IIV-rT-2E0">
+            <objects>
+                <viewController id="Kr4-ui-5th" customClass="SecondViewController" customModule="Wingman_MAIN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4yK-CA-OCn"/>
+                        <viewControllerLayoutGuide type="bottom" id="DRl-sx-LtC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OK2-fi-JqR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9 SMS Messages Blocked..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Poe-VX-kwO">
+                                <rect key="frame" x="16" y="28" width="270" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="q0R-v2-FVZ">
+                                <rect key="frame" x="16" y="80" width="127" height="29"/>
+                                <segments>
+                                    <segment title="SEND"/>
+                                    <segment title="DELETE"/>
+                                </segments>
+                                <connections>
+                                    <action selector="send1:" destination="Kr4-ui-5th" eventType="valueChanged" id="CTL-to-3MJ"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYj-B2-ezL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160" y="375"/>
+        </scene>
+    </scenes>
+</document>
